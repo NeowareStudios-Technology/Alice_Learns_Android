@@ -462,6 +462,7 @@
      <Compile Include="Assets\Scripts\TrackableEventHandler1.cs" />
      <Compile Include="Assets\Slider Menu Free_New Edition\Scripts\SliderMenu.cs" />
      <Compile Include="Assets\SmartSheetsAssets\Scripts\Features\tapToFocus.cs" />
+     <Compile Include="Assets\SplashVideo.cs" />
      <Compile Include="Assets\VideoControl.cs" />
      <Compile Include="Assets\VideoPlaybackBehaviour.cs" />
      <Compile Include="Assets\VideoPlayerHelper.cs" />
