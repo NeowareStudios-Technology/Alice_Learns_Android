@@ -491,6 +491,7 @@
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\DetectCollision.cs" />
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\MoveModel.cs" />
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\StopJumping.cs" />
+    <Compile Include="Assets\Click_Sound.cs" />
     <Compile Include="Assets\GoToAlice.cs" />
     <Compile Include="Assets\GoToLearn.cs" />
     <Compile Include="Assets\Gotomenu.cs" />
@@ -504,9 +505,11 @@
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_RuntimeUtils.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Scripts\TCP2_ShaderUpdateUnityTime.cs" />
     <Compile Include="Assets\ModalDialogue.cs" />
-    <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
+    <Compile Include="Assets\Scripts\DisableCoaches.cs" />
+    <Compile Include="Assets\Scripts\TrackableEventHandler1.cs" />
     <Compile Include="Assets\Slider Menu Free_New Edition\Scripts\SliderMenu.cs" />
     <Compile Include="Assets\SmartSheetsAssets\Scripts\Features\tapToFocus.cs" />
+    <Compile Include="Assets\SplashVideo.cs" />
     <Compile Include="Assets\VideoControl.cs" />
     <Compile Include="Assets\VideoPlaybackBehaviour.cs" />
     <Compile Include="Assets\VideoPlayerHelper.cs" />
