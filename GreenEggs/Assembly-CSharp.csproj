@@ -120,8 +120,10 @@
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\DetectCollision.cs" />
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\MoveModel.cs" />
     <Compile Include="Assets\AliceAssetsSpeech\scripts 1\StopJumping.cs" />
+    <Compile Include="Assets\AliceLoading.cs" />
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Click_Sound.cs" />
+    <Compile Include="Assets\CoachesHandler.cs" />
     <Compile Include="Assets\DebugManager.cs" />
     <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avcodec.g.cs" />
     <Compile Include="Assets\EasyMovieTexture\FFmpeg.AutoGen\FFmpeg.avdevice.g.cs" />
@@ -141,6 +143,7 @@
     <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
     <Compile Include="Assets\GoToActivities.cs" />
     <Compile Include="Assets\GoToAlice.cs" />
+    <Compile Include="Assets\GoToExplore.cs" />
     <Compile Include="Assets\GoToLearn.cs" />
     <Compile Include="Assets\Gotomenu.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo.cs" />

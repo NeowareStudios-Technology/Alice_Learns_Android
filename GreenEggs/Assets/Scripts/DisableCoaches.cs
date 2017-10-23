@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class DisableCoaches : MonoBehaviour {
 
+    public string playerPrefsStorageName = "DONT FORGET TO CHANGE THIS";
+
 	// Use this for initialization
 	void Start () {
 
-        if (PlayerPrefs.GetInt("hasTCDisplayed") == 1)
+        if (PlayerPrefs.GetInt(playerPrefsStorageName) == 1)
         {
-            Destroy(GameObject.Find("Coach"));
+            //Destroy(GameObject.Find("Coach"));
+            this.gameObject.SetActive(false);
         }
-        PlayerPrefs.SetInt("hasTCDisplayed", 1);
+        else
+        {
+            PlayerPrefs.SetInt(playerPrefsStorageName, 1);
+            this.gameObject.SetActive(true);
+        }
     }
 	
 	// Update is called once per frame

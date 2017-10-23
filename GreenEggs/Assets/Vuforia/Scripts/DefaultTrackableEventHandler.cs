@@ -52,10 +52,33 @@ namespace Vuforia
             {
 
             }
-            targetControl = GameObject.FindObjectOfType<DynamicDataSetLoader>();
-            analyticsControl = GameObject.FindObjectOfType<analyticsController>();
 
-            debugText = GameObject.Find("Debug").GetComponent<Text>();
+            try
+            {
+                targetControl = GameObject.FindObjectOfType<DynamicDataSetLoader>();
+            }
+            catch (NullReferenceException ex)
+            {
+
+            }
+
+            try
+            {
+                analyticsControl = GameObject.FindObjectOfType<analyticsController>();
+            }
+            catch (NullReferenceException ex)
+            {
+
+            }
+
+            try
+            {
+                debugText = GameObject.Find("Debug").GetComponent<Text>();
+            }
+            catch (NullReferenceException ex)
+            {
+
+            }
 
             mTrackableBehaviour = GetComponent<TrackableBehaviour>();
             if (mTrackableBehaviour)
@@ -102,12 +125,19 @@ namespace Vuforia
         private void OnTrackingFound()
         {
 
-            if (!targetControl.ready)
-            {
-                return;
-            }
+            Debug.Log("I see " + this.gameObject.name);
 
-            GameObject.Find("targetManager").GetComponent<TargetTracker>().AddTarget(this.gameObject);
+            try
+            {
+                if (!targetControl.ready)
+                {
+                    return;
+                }
+                GameObject.Find("targetManager").GetComponent<TargetTracker>().AddTarget(this.gameObject);
+
+            }
+            catch ( NullReferenceException ex) { }
+
 
             try
             {
@@ -190,7 +220,12 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
-            GameObject.Find("targetManager").GetComponent<TargetTracker>().RemoveTarget(this.gameObject);
+            try
+            {
+                GameObject.Find("targetManager").GetComponent<TargetTracker>().RemoveTarget(this.gameObject);
+            }
+            catch (NullReferenceException ex)
+            { }
 
             try
             {
@@ -225,7 +260,7 @@ namespace Vuforia
                 {
                     component.enabled = false;
                 }
-                analyticsControl.launchTimeTrack(false);
+                //analyticsControl.launchTimeTrack(false);
 
                 Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 
