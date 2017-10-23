@@ -14,6 +14,8 @@ public class LevelController : MonoBehaviour
     private Image image;
     private float targetAlpha;
 
+    bool readyToDestroy = false;
+
     public void NextScene()
     {
         SceneManager.LoadScene("book");
@@ -44,6 +46,10 @@ public class LevelController : MonoBehaviour
             curColor.a = Mathf.Lerp(curColor.a, targetAlpha, this.FadeRate * Time.deltaTime);
             this.image.color = curColor;
         }
+        else if (readyToDestroy)
+        {
+            Destroy(this.transform.parent.gameObject, 5f);
+        }
     }
 
     IEnumerator LoadYourAsyncScene()
@@ -70,6 +76,7 @@ public class LevelController : MonoBehaviour
     public void FadeOut()
     {
         this.targetAlpha = 0.0f;
+        readyToDestroy = true;
     }
 
     public void FadeIn()
