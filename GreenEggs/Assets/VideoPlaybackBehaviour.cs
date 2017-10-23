@@ -315,18 +315,18 @@ public class VideoPlaybackBehaviour : MonoBehaviour
                 // Pass the video texture id to the video player
                 mVideoPlayer.SetVideoTexturePtr(mVideoTexture.GetNativeTexturePtr());
 
-                // Get the video width and height
-                int videoWidth = mVideoPlayer.GetVideoWidth();
-                int videoHeight = mVideoPlayer.GetVideoHeight();
-
-                if (videoWidth > 0 && videoHeight > 0)
-                {
-                    // Scale the video plane to match the video aspect ratio
-                    float aspect = videoHeight / (float)videoWidth;
-
-                    // Flip the plane as the video texture is mirrored on the horizontal
-                    transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f * aspect);
-                }
+//                // Get the video width and height
+//                int videoWidth = mVideoPlayer.GetVideoWidth();
+//                int videoHeight = mVideoPlayer.GetVideoHeight();
+//
+//                if (videoWidth > 0 && videoHeight > 0)
+//                {
+//                    // Scale the video plane to match the video aspect ratio
+//                    float aspect = videoHeight / (float)videoWidth;
+//
+//                    // Flip the plane as the video texture is mirrored on the horizontal
+//                    transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f * aspect);
+//                }
 
                 // Seek ahead if necessary
                 if (mSeekPosition > 0)
