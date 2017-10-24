@@ -2116,7 +2116,7 @@ public class MediaPlayerCtrl : MonoBehaviour
 			threadVideo = null;
 		}
 
-        ffmpeg.avformat_network_deinit ();
+        //ffmpeg.avformat_network_deinit ();
 
 		ReleaseTexture (m_iID);
 	}
@@ -3854,11 +3854,11 @@ public class MediaPlayerCtrl : MonoBehaviour
 
 	public void Call_SetUnityActivity()
 	{
-		ffmpeg.av_register_all();
-		ffmpeg.avcodec_register_all();
-		ffmpeg.avformat_network_init();
+		//ffmpeg.av_register_all();
+		//ffmpeg.avcodec_register_all();
+		//ffmpeg.avformat_network_init();
 
-		m_iID = SetTexture ();
+		//m_iID = SetTexture ();
 
 
 

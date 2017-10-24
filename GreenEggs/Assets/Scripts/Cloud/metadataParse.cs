@@ -123,7 +123,6 @@ public class metadataParse : MonoBehaviour {
                 debugText.text += "Waiting for freeze...before coroutine @ time: " + Time.time + "\n";
                 StartCoroutine(playVideo ());
                 
-
 #elif UNITY_ANDROID
                 videoGameObject.transform.localScale = new Vector3(1f, 1f, 1f);
                 // store video link and start streaming the video in the unity videoplayer
@@ -429,10 +428,9 @@ public class metadataParse : MonoBehaviour {
         {
 #if UNITY_IOS|| UNITY_EDITOR
             videoPlayer.Pause();
-            audioSource.Pause();
-#endif
+			audioSource.Pause();
 
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             easyPlayer.Pause();
 #endif
 
@@ -444,9 +442,8 @@ public class metadataParse : MonoBehaviour {
 #if UNITY_IOS|| UNITY_EDITOR
             videoPlayer.Play();
             audioSource.Play();
-#endif
 
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             easyPlayer.Play();
 #endif
 
