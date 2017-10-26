@@ -129,7 +129,101 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 2000
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera_Target_1
+        weight: 1
+      - path: Camera_Target_1/Sun_2
+        weight: 1
+      - path: Cinema4D_Editor
+        weight: 1
+      - path: Earth
+        weight: 1
+      - path: Earth/Earth_2
+        weight: 1
+      - path: Jupiter
+        weight: 1
+      - path: Jupiter/Jupiter_2
+        weight: 1
+      - path: Mars
+        weight: 1
+      - path: Mars/Mars_2
+        weight: 1
+      - path: Merc_Orbit
+        weight: 1
+      - path: Merc_Orbit/Mercury
+        weight: 1
+      - path: Neptune
+        weight: 1
+      - path: Neptune/Neptune_2
+        weight: 1
+      - path: Physical_Sky
+        weight: 1
+      - path: Physical_Sky/Shadow_Plane
+        weight: 1
+      - path: Physical_Sky/Sky_Dome
+        weight: 1
+      - path: Physical_Sky/Sky_Null
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Moon
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Moon/Moon_Light
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Sun
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Sun/Lensflare_Source
+        weight: 1
+      - path: Physical_Sky/Sky_Null/Sun/Sun_light
+        weight: 1
+      - path: Pluto
+        weight: 1
+      - path: Pluto/Pluto_2
+        weight: 1
+      - path: Saturn
+        weight: 1
+      - path: Saturn/Saturn_2
+        weight: 1
+      - path: Saturn/Saturn_2/Disc
+        weight: 1
+      - path: Saturn/Saturn_2/Sphere
+        weight: 1
+      - path: Uranus
+        weight: 1
+      - path: Uranus/Uranus_2
+        weight: 1
+      - path: Venus
+        weight: 1
+      - path: Venus/Venus_2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -30,7 +30,7 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         }
 
-        OnTrackingLost();
+        //OnTrackingLost();
     }
 
     void Update()
@@ -75,6 +75,7 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
         else
         {
             OnTrackingLost();
+            GameObject.Find("Placeholder").GetComponent<Text>().text = " ";
         }
     }
     #endregion //PUBLIC_METHODS
@@ -120,7 +121,8 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 
 		if (mTrackableBehaviour.TrackableName == "P2_3")
 		{
-			p23.SetActive(true);
+            GameObject.Find("Placeholder").GetComponent<Text>().text = " ";
+            p23.SetActive(true);
 		}
 		if (mTrackableBehaviour.TrackableName == "P4_5")
 		{
@@ -133,11 +135,13 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 			
 		if (mTrackableBehaviour.TrackableName == "P8_9")
 		{
-			p89.SetActive(true);
+            GameObject.Find("Placeholder").GetComponent<Text>().text = findNull.GetComponent<Text>().text;
+            p89.SetActive(true);
 		}
 		if (mTrackableBehaviour.TrackableName == "P10_11")
 		{
-			p1011.SetActive(true);
+            GameObject.Find("Placeholder").GetComponent<Text>().text = " ";
+            p1011.SetActive(true);
 		}
 		if (mTrackableBehaviour.TrackableName == "P12-13")
 		{
@@ -280,6 +284,7 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 
     private void OnTrackingLost()
     {
+        GameObject.Find("Placeholder").GetComponent<Text>().text = findNull.GetComponent<Text>().text;
         animtrigger = 0;
         Renderer[] rendererComponents = GetComponentsInChildren<Renderer>();
         Collider[] colliderComponents = GetComponentsInChildren<Collider>();
@@ -305,25 +310,25 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 
 		if (mTrackableBehaviour.TrackableName == "P8_9")
 		{
-			GameObject.Find("TextFeed89").SetActive(false);
+			//GameObject.Find("TextFeed89").SetActive(false);
 			Null = findNull.GetComponent<Text>().text;
-			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
-		}
+            GameObject.Find("Placeholder").GetComponent<Text>().text = findNull.GetComponent<Text>().text;
+        }
 		if (mTrackableBehaviour.TrackableName == "P10_11")
 		{
-			GameObject.Find("TextFeed1011").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P12-13")
 		{
-			GameObject.Find("TextFeed1213").SetActive(false);
+		;
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P14_15")
 		{
-			GameObject.Find("TextFeed1415").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
@@ -335,37 +340,37 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 		}
 		if (mTrackableBehaviour.TrackableName == "P18_19")
 		{
-			GameObject.Find("TextFeed1819").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P20_21")
 		{
-			GameObject.Find("TextFeed2021").SetActive(false);
+		
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P23")
 		{
-			GameObject.Find("TextFeed2223").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P25")
 		{
-			GameObject.Find("TextFeed2425").SetActive(false);
+		
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P27")
 		{
-			GameObject.Find("TextFeed2627").SetActive(false);
+		
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P29")
 		{
-			GameObject.Find("TextFeed2829").SetActive(false);
+	
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
@@ -377,102 +382,103 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 		}
 		if (mTrackableBehaviour.TrackableName == "P33")
 		{
-			GameObject.Find("TextFeed3233").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P35")
 		{
-			GameObject.Find("TextFeed3435").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "37")
 		{
-			GameObject.Find("TextFeed3637").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P39")
 		{
-			GameObject.Find("TextFeed3839").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P41")
 		{
-			GameObject.Find("TextFeed4041").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P43")
 		{
-			GameObject.Find("TextFeed4243").SetActive(false);
+		
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P45")
 		{
-			GameObject.Find("TextFeed4445").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P47")
 		{
-			GameObject.Find("TextFeed4647").SetActive(false);
+		
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P49")
 		{
-			GameObject.Find("TextFeed4849").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P51")
 		{
-			GameObject.Find("TextFeed5051").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P53")
 		{
-			GameObject.Find("TextFeed5253").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P55")
 		{
-			GameObject.Find("TextFeed5455").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P57")
 		{
-			GameObject.Find("TextFeed5657").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P59")
 		{
-			GameObject.Find("TextFeed5859").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P61")
 		{
-			GameObject.Find("TextFeed61").SetActive(false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
 		if (mTrackableBehaviour.TrackableName == "P62") {
 			
-			GameObject.Find ("TextFeed62").SetActive (false);
+			
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
         mLostTracking = true;
         mSecondsSinceLost = 0;
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
     }
 
     // Pause all videos except this one
