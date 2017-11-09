@@ -7,6 +7,6 @@ public class GoToActivities : MonoBehaviour {
     public void LoadScene()
     {
 
-        SceneManager.LoadScene("SmartSheetsAssets/Smart Worksheets");
+        SceneManager.LoadScene("SmartSheetsAssets/Smart Worksheets(A-E)");
     }
 }

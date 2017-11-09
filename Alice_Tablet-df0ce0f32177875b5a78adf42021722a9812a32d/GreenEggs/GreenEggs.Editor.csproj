@@ -139,6 +139,7 @@
     <Compile Include="Assets\AliceAssetsSpeech\Editor\Vuforia\VideoPlaybackScripts\VideoPlaybackEditor.cs" />
     <Compile Include="Assets\AliceAssetsSpeech\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\DataSetLoader\Editor\DataSetCopierEditor.cs" />
+    <Compile Include="Assets\DataSetLoader\Editor\VideoCopierEditor.cs" />
     <Compile Include="Assets\EasyMovieTexture\Editor\CSProjectFilePostProcessor.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Config.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GUI.cs" />

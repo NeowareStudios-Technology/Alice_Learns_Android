@@ -175,9 +175,14 @@
     <Compile Include="Assets\EasyMovieTexture\Scripts\SeekBarCtrl.cs" />
     <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
     <Compile Include="Assets\GoToActivities.cs" />
+    <Compile Include="Assets\GoToActivitiesFtoJ.cs" />
+    <Compile Include="Assets\GoToActivitiesKtoO.cs" />
+    <Compile Include="Assets\GoToActivitiesNumbers.cs" />
+    <Compile Include="Assets\GoToActivitiesPtoT.cs" />
     <Compile Include="Assets\GoToAlice.cs" />
     <Compile Include="Assets\GoToExplore.cs" />
     <Compile Include="Assets\GoToLearn.cs" />
+    <Compile Include="Assets\GotoActivitiesUtoZ.cs" />
     <Compile Include="Assets\Gotomenu.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Misc\TCP2_Demo_PBS.cs" />
@@ -208,6 +213,7 @@
     <Compile Include="Assets\ToggleChildren.cs" />
     <Compile Include="Assets\TrackableEventHandler.cs" />
     <Compile Include="Assets\VideoControl.cs" />
+    <Compile Include="Assets\VideoCopier.cs" />
     <Compile Include="Assets\VideoLoaderSplit.cs" />
     <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" />
     <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackController.cs" />
