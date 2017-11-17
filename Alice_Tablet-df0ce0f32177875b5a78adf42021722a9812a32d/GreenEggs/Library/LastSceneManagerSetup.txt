@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SmartSheetsAssets/Smart Worksheets(A-E).unity
+- path: Assets/Learn.unity
   isLoaded: 1
   isActive: 1
