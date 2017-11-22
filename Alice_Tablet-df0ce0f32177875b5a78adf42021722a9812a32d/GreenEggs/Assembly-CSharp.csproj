@@ -68,6 +68,8 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -76,6 +78,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

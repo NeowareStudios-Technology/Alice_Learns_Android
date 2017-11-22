@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/Learn.unity
+- path: C:/Users/Alex/Desktop/Alice_Tablet/Alice_Tablet/Alice_Tablet-df0ce0f32177875b5a78adf42021722a9812a32d/GreenEggs/Assets/SmartSheetsAssets/Smart
+    Worksheets(A-E).unity
   isLoaded: 1
   isActive: 1
