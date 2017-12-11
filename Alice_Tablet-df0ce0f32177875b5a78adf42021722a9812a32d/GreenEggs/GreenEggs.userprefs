@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Orientation\Orientation_Manager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\attachments\TrackableEventHandlerPure.cs">
     <Files>
-      <File FileName="Assets\Orientation\Orientation_Manager.cs" Line="11" Column="1" />
+      <File FileName="Assets\Orientation\Orientation_Manager.cs" Line="1" Column="1" />
+      <File FileName="Assets\SplitBinaryLoad.cs" Line="6" Column="29" />
+      <File FileName="Assets\Plugins\Editor\Unzip.js" Line="3" Column="8" />
+      <File FileName="d:\Work\Hello Alice\Github\Alice_Learns_Android\Alice_Tablet-df0ce0f32177875b5a78adf42021722a9812a32d\GreenEggs\Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" Line="1" Column="1" />
+      <File FileName="Assets\Max_obbLoader.cs" Line="9" Column="40" />
+      <File FileName="Assets\SplashVideo.cs" Line="32" Column="38" />
+      <File FileName="Assets\attachments\TrackableEventHandlerPure.cs" Line="300" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

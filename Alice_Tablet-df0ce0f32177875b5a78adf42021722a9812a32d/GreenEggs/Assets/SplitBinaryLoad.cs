@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.IO;
 
-public class FirstScene : MonoBehaviour {
+public class SplitBinaryLoad : MonoBehaviour {
 
 	public Text infoText;
 	public GameObject spinnerImage;
