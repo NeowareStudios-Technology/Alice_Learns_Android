@@ -402,7 +402,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
     void OnDestroy()
     {
         // Deinit the video
-        mVideoPlayer.Deinit();
+        //mVideoPlayer.Deinit();
     }
 
     #endregion // UNITY_MONOBEHAVIOUR_METHODS

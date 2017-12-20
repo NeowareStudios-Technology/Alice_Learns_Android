@@ -302,7 +302,7 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
         {
             component.enabled = false;
         }
-
+		/*
 		if (mTrackableBehaviour.TrackableName == "P8_9")
 		{
 			GameObject.Find("TextFeed89").SetActive(false);
@@ -471,6 +471,7 @@ public class TrackableEventHandlerPure : MonoBehaviour, ITrackableEventHandler
 			Null = findNull.GetComponent<Text>().text;
 			GameObject.Find("Placeholder").GetComponent<Text>().text = Null;
 		}
+		*/
         mLostTracking = true;
         mSecondsSinceLost = 0;
     }
